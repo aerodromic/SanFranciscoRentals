@@ -50,9 +50,10 @@ To investigate this, we will utilize the primary data set: `rent` on San
 Francisco Rentals from 2000 to 2018 obtained from
 [tidytuesday/data/2022/2022-07-05/](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-07-05).
 
-    rent <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-07-05/rent.csv')
+    library(tidyverse)
+    library(maps)
 
-    # summary(rent)
+    rent <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-07-05/rent.csv')
 
 A brief description of the variables **relevant** to our analysis are
 given in the tables below:
